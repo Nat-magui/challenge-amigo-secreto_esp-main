@@ -49,7 +49,6 @@ Este proyecto pone en práctica conceptos esenciales de **lógica de programaci�
 ---
 
 ## 👀 Vista Previa
-*(Agrega aquí tus imágenes o gifs de ejemplo)*  
 
 - Lista de amigos agregados:  
   ![Lista de amigos](assets/lista-amigos.png)  
