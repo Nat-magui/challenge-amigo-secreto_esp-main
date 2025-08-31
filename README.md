@@ -1,60 +1,91 @@
-# 🎁 Challenge Amigo Secreto
+# 🎁 Challenge ONE – Amigo Secreto
 
-Aplicación realizada como parte del **Challenge ONE - Lógica de Programación (Oracle + Alura)**.  
-El objetivo es practicar **JavaScript** aplicando conceptos de variables, condicionales, funciones, arrays y ciclos.
+Aplicación realizada como parte del programa **Oracle Next Education (ONE) + Alura Latam**.  
+El objetivo fue poner en práctica conceptos de **lógica de programación** con **JavaScript**, trabajando variables, condicionales, funciones, arrays y aleatoriedad.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-FINALIZADO-green" alt="Status del proyecto">
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow" alt="JavaScript ES6">
+  <img src="https://img.shields.io/badge/HTML-5-orange" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS-3-blue" alt="CSS3">
+</p>
 
 ---
 
-## 🚀 Funcionalidades
-- Agregar nombres de amigos a una lista.  
-- Validar que no se ingresen nombres vacíos.  
-- Realizar un sorteo aleatorio para elegir un **Amigo Secreto**.  
-- Mostrar en pantalla el resultado del sorteo.  
+## 💡 Sobre el Desafío
+El desafío consiste en crear una aplicación que permita a los usuarios **ingresar nombres de amigos** en una lista y luego realizar un **sorteo aleatorio** para determinar quién es el **amigo secreto**.  
+
+El proyecto incluye un **HTML y CSS base** (provistos por Alura), mientras que la lógica en **JavaScript** fue desarrollada desde cero.
+
+---
+
+## ⚙️ Funcionalidades
+- **Agregar nombres:** los usuarios escriben en el input y presionan **“Adicionar”** para sumar a la lista visible.  
+- **Validar entrada:** si el campo está vacío, se muestra una alerta pidiendo un nombre válido.  
+- **Visualizar la lista:** los nombres ingresados aparecen debajo del campo de entrada.  
+- **Sorteo aleatorio:** al hacer clic en **“Sortear Amigo”**, se elige al azar un nombre y se muestra en pantalla.  
 
 ---
 
 ## 🖼️ Vista previa
-*(Agregá una captura de pantalla de tu proyecto aquí)*  
-Ejemplo:
+*(Ejemplo: agrega imágenes o GIFs de tu proyecto en acción)*
 
-![Vista previa del proyecto](assets/amigo-secreto.png)
+- Pantalla principal con nombres agregados:  
+  ![Pantalla principal](assets/amigo-secreto.png)
+
+- Ejemplo de sorteo en acción (GIF opcional):  
+  ![Sorteo](assets/sorteo.gif)
 
 ---
 
-## 📂 Acceso al proyecto
-- [Repositorio en GitHub](https://github.com/Nat-magui/challenge-amigo-secreto_esp-main)  
-- Para abrir el proyecto localmente:
-  ```bash
-  git clone git@github.com:Nat-magui/challenge-amigo-secreto_esp-main.git
-  cd challenge-amigo-secreto_esp-main
-  # Abrir index.html en tu navegador
+## ▶️ Cómo ejecutar
+Este proyecto no requiere servidor, basta con abrir el HTML en un navegador.  
+
+```bash
+# Clonar el repositorio
+git clone git@github.com:Nat-magui/challenge-amigo-secreto_esp-main.git
+
+# Acceder al directorio
+cd challenge-amigo-secreto_esp-main
+
+# Abrir index.html en tu navegador
 ````
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🗂️ Estructura del proyecto
 
-* **HTML5**
-* **CSS3**
-* **JavaScript (ES6+)**
+```
+.
+├─ assets/                 # imágenes / íconos
+├─ app.js                  # lógica en JavaScript (agregar, listar, sortear)
+├─ index.html              # estructura base
+└─ style.css               # estilos base
+```
+
+---
+
+## 🚀 Próximos pasos (mejoras posibles)
+
+* ✅ Evitar nombres duplicados en la lista.
+* 💾 Guardar la lista de amigos en **localStorage** para no perderlos al recargar.
+* ✨ Agregar animaciones al mostrar el resultado del sorteo.
+* 🎨 Mejorar el estilo visual con transiciones y feedback al usuario.
+* 📱 Adaptar aún más el diseño para móviles.
 
 ---
 
 ## 👩‍💻 Autora
 
-| ![Tu avatar](https://avatars.githubusercontent.com/u/0?v=4) |
-| :---------------------------------------------------------: |
-|        [**Nat-magui**](https://github.com/Nat-magui)        |
+| [<img src="https://avatars.githubusercontent.com/u/0?v=4" width=100><br><sub>Nat-magui</sub>](https://github.com/Nat-magui) |
+| :-------------------------------------------------------------------------------------------------------------------------: |
 
 ---
 
-## 📜 Estado del proyecto
+## 📝 Licencia
 
-✅ Proyecto finalizado y entregado.
+Este proyecto fue desarrollado con fines educativos en el marco del programa **Oracle Next Education (ONE)** en conjunto con **Alura Latam**.
+Uso libre para aprendizaje y práctica personal.
 
 ---
-
-## 🏆 Reconocimientos
-
-Este proyecto forma parte del programa **Oracle Next Education (ONE)** junto a **Alura Latam**.
 
