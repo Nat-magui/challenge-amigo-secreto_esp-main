@@ -1,7 +1,7 @@
-# 🎁 Challenge ONE – Amigo Secreto
+# 🎁 Challenge ONE – Amigo Secreto  
 
-Aplicación realizada como parte del programa **Oracle Next Education (ONE) + Alura Latam**.  
-El objetivo fue poner en práctica conceptos de **lógica de programación** con **JavaScript**, trabajando variables, condicionales, funciones, arrays y aleatoriedad.
+Aplicación desarrollada en el marco del programa **Oracle Next Education (ONE) + Alura Latam** para practicar **lógica de programación en JavaScript**.  
+El objetivo es permitir que un usuario ingrese una lista de amigos y realice un sorteo aleatorio para determinar quién es el **amigo secreto**.  
 
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-FINALIZADO-green" alt="Status del proyecto">
@@ -12,66 +12,68 @@ El objetivo fue poner en práctica conceptos de **lógica de programación** con
 
 ---
 
-## 💡 Sobre el Desafío
-El desafío consiste en crear una aplicación que permita a los usuarios **ingresar nombres de amigos** en una lista y luego realizar un **sorteo aleatorio** para determinar quién es el **amigo secreto**.  
-
-El proyecto incluye un **HTML y CSS base** (provistos por Alura), mientras que la lógica en **JavaScript** fue desarrollada desde cero.
-
----
-
-## ⚙️ Funcionalidades
-- **Agregar nombres:** los usuarios escriben en el input y presionan **“Adicionar”** para sumar a la lista visible.  
-- **Validar entrada:** si el campo está vacío, se muestra una alerta pidiendo un nombre válido.  
-- **Visualizar la lista:** los nombres ingresados aparecen debajo del campo de entrada.  
-- **Sorteo aleatorio:** al hacer clic en **“Sortear Amigo”**, se elige al azar un nombre y se muestra en pantalla.  
+## 📋 Índice
+- [Descripción del Proyecto](#-descripción-del-proyecto)
+- [Estado del Proyecto](#-estado-del-proyecto)
+- [Funcionalidades](#-funcionalidades)
+- [Vista Previa](#-vista-previa)
+- [Acceso al Proyecto](#-acceso-al-proyecto)
+- [Tecnologías Utilizadas](#-tecnologías-utilizadas)
+- [Autora](#-autora)
+- [Licencia](#-licencia)
 
 ---
 
-## 🖼️ Vista previa
-*(Ejemplo: agrega imágenes o GIFs de tu proyecto en acción)*
-
-- Pantalla principal con nombres agregados:  
-  ![Pantalla principal](assets/amigo-secreto.png)
-
-- Ejemplo de sorteo en acción (GIF opcional):  
-  ![Sorteo](assets/sorteo.gif)
+## 📖 Descripción del Proyecto
+Este proyecto pone en práctica conceptos esenciales de **lógica de programación**:
+- Variables  
+- Condicionales  
+- Funciones  
+- Arrays (listas)  
+- Bucles  
+- Selección aleatoria con `Math.random()`  
 
 ---
 
-## ▶️ Cómo ejecutar
-Este proyecto no requiere servidor, basta con abrir el HTML en un navegador.  
+## 🚧 Estado del Proyecto
+✅ Proyecto finalizado y entregado.  
 
+---
+
+## 🔨 Funcionalidades
+- **Agregar nombres:** los usuarios escriben en un campo de texto y los añaden a la lista.  
+- **Validar entrada:** si el campo está vacío, muestra un mensaje de error.  
+- **Visualizar lista:** todos los nombres ingresados se muestran en pantalla.  
+- **Sortear amigo:** selecciona un nombre aleatorio de la lista y lo muestra como resultado.  
+
+---
+
+## 👀 Vista Previa
+*(Agrega aquí tus imágenes o gifs de ejemplo)*  
+
+- Lista de amigos agregados:  
+  ![Lista de amigos](assets/lista-amigos.png)  
+
+- Sorteo realizado:  
+  ![Resultado del sorteo](assets/sorteo.png)  
+
+---
+
+## 📁 Acceso al Proyecto
+Clonar el repositorio:  
 ```bash
-# Clonar el repositorio
 git clone git@github.com:Nat-magui/challenge-amigo-secreto_esp-main.git
-
-# Acceder al directorio
-cd challenge-amigo-secreto_esp-main
-
-# Abrir index.html en tu navegador
 ````
 
----
-
-## 🗂️ Estructura del proyecto
-
-```
-.
-├─ assets/                 # imágenes / íconos
-├─ app.js                  # lógica en JavaScript (agregar, listar, sortear)
-├─ index.html              # estructura base
-└─ style.css               # estilos base
-```
+Abrir el archivo `index.html` en el navegador.
 
 ---
 
-## 🚀 Próximos pasos (mejoras posibles)
+## 🛠️ Tecnologías Utilizadas
 
-* ✅ Evitar nombres duplicados en la lista.
-* 💾 Guardar la lista de amigos en **localStorage** para no perderlos al recargar.
-* ✨ Agregar animaciones al mostrar el resultado del sorteo.
-* 🎨 Mejorar el estilo visual con transiciones y feedback al usuario.
-* 📱 Adaptar aún más el diseño para móviles.
+* **HTML5**
+* **CSS3**
+* **JavaScript (ES6)**
 
 ---
 
@@ -86,6 +88,4 @@ cd challenge-amigo-secreto_esp-main
 
 Este proyecto fue desarrollado con fines educativos en el marco del programa **Oracle Next Education (ONE)** en conjunto con **Alura Latam**.
 Uso libre para aprendizaje y práctica personal.
-
----
 
